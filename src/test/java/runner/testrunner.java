@@ -10,7 +10,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(features= "src/test/resources/features",
 					glue = "stepdefinition",
 					plugin= {"pretty",
-							"json:target/cucumber/reports.json"})
+							"json:target/cucumber.json"})
 
 					/*plugin= {"pretty",
 								"html:target/cucumber-html-report",
